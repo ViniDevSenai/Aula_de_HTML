@@ -35,6 +35,4 @@ Para executar o projeto, basta abrir o arquivo Page_1.html em um navegador.
 
 As imagens utilizadas devem estar na mesma pasta do arquivo HTML para serem carregadas corretamente.
 
-Autor
-
 Projeto desenvolvido para fins acadêmicos.

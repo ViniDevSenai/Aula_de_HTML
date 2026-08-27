@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mataram meu cachorro</title>
+
+    <style>
+        img {
+            width: 500px;
+            height: 600px;
+            object-fit: contain;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 0;
+            list-style: none;
+        }
+
+        li img {
+            width: 200px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        fieldset {
+            margin: 15px 0;
+            padding: 15px;
+        }
+
+        select {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Perdi minha esposa</h1>
+
+    <p>Eu amava ela <strong>DEMAIS</strong> mesmo ❤️</p>
+
+    <img src="jonh_e_esposa.jpg" alt="John e Esposa">
+
+    <h1>Então ela me deu um cachorro</h1>
+
+    <img src="jonh_e_cachorrobeagle.jpg" alt="John e Cachorro">
+
+    <p>Eu amava ele <strong>DEMAIS</strong> mesmo ❤️</p>
+
+    <h1>Então mataram meu cachorro</h1>
+
+    <img src="jonh_triste.jpg" alt="John triste">
+
+    <h1>Ai eu matei todo mundo!</h1>
+
+    <img src="jonh_de_volta.jpg" alt="John de volta">
+
+
+    <h2>Trailers</h2>
+
+    <ul>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="jonhWick1.jpg" alt="John Wick 1">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="jonhWick2.jpg" alt="John Wick 2">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="jonhWick3.jpg" alt="John Wick 3">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="jonhWick4.jpg" alt="John Wick 4">
+            </a>
+        </li>
+
+    </ul>
+
+
+    <h2>John Wick Series</h2>
+
+    <table>
+
+        <tr>
+            <th>Filme</th>
+            <th>Ano de Lançamento</th>
+            <th>Diretor</th>
+        </tr>
+
+        <tr>
+            <td>John Wick</td>
+            <td>2014</td>
+            <td>Chad Stahelski</td>
+        </tr>
+
+        <tr>
+            <td>John Wick: Chapter 2</td>
+            <td>2017</td>
+            <td>Chad Stahelski</td>
+        </tr>
+
+        <tr>
+            <td>John Wick: Chapter 3 - Parabellum</td>
+            <td>2019</td>
+            <td>Chad Stahelski</td>
+        </tr>
+
+        <tr>
+            <td>John Wick: Chapter 4</td>
+            <td>2023</td>
+            <td>Chad Stahelski</td>
+        </tr>
+
+    </table>
+
+
+    <form action="Page_1.html" method="get">
+
+        <h2>Formulário</h2>
+
+
+        <!-- DATALIST -->
+
+        <label for="texto">Digite seu filme favorito:</label>
+
+        <input list="filmes" id="texto" name="texto">
+
+        <datalist id="filmes">
+            <option value="John Wick">
+            <option value="John Wick 2">
+            <option value="John Wick 3">
+            <option value="John Wick 4">
+        </datalist>
+
+
+        <br><br>
+
+
+        <!-- RADIO -->
+
+        <fieldset>
+
+            <legend>Gênero:</legend>
+
+            <input type="radio" id="acao" name="genero" value="acao">
+            <label for="acao">Ação</label>
+
+            <br>
+
+            <input type="radio" id="aventura" name="genero" value="aventura">
+            <label for="aventura">Aventura</label>
+
+            <br>
+
+            <input type="radio" id="drama" name="genero" value="drama">
+            <label for="drama">Drama</label>
+
+        </fieldset>
+
+
+        <!-- CHECKBOX -->
+
+        <fieldset>
+
+            <legend>Qual prefere?</legend>
+
+            <input type="checkbox" id="johnwick1" name="filme" value="John Wick">
+            <label for="johnwick1">John Wick</label>
+
+            <br>
+
+            <input type="checkbox" id="johnwick2" name="filme" value="John Wick 2">
+            <label for="johnwick2">John Wick 2</label>
+
+            <br>
+
+            <input type="checkbox" id="johnwick3" name="filme" value="John Wick 3">
+            <label for="johnwick3">John Wick 3</label>
+
+            <br>
+
+            <input type="checkbox" id="johnwick4" name="filme" value="John Wick 4">
+            <label for="johnwick4">John Wick 4</label>
+
+        </fieldset>
+
+
+        <!-- LISTBOX -->
+
+        <fieldset>
+
+            <legend>Escolha um filme</legend>
+
+            <label for="filme">Filme favorito:</label>
+
+            <br>
+
+            <select id="filme" name="filme-favorito" size="4">
+
+                <option value="john-wick">
+                    John Wick
+                </option>
+
+                <option value="john-wick-2">
+                    John Wick 2
+                </option>
+
+                <option value="john-wick-3">
+                    John Wick 3
+                </option>
+
+                <option value="john-wick-4">
+                    John Wick 4
+                </option>
+
+            </select>
+
+        </fieldset>
+
+
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+
+</html>

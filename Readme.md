@@ -1,6 +1,4 @@
-Claro. Para um trabalho acadêmico simples, pode deixar o README bem direto, explicando o objetivo, tecnologias usadas e o que foi desenvolvido.
 
-README.md
 Projeto John Wick
 
 Projeto acadêmico desenvolvido utilizando HTML5 e CSS3, com o objetivo de praticar a criação de páginas web, formulários, tabelas, imagens e links.
